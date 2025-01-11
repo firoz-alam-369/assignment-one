@@ -226,3 +226,139 @@ section {
   color: rgba(14, 14, 14, 60%);
   font-family: "Fira Sans", serif;
 }
+
+/* Opinion */
+
+.opinion .title h1 {
+  font-weight: bold;
+  color: #0e0e0e;
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+.opinion .box {
+  background: #ffffff;
+  padding: 32px;
+}
+
+.box .box-title {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background: #c6e4d6;
+}
+
+.box .box-one {
+  display: flex;
+}
+.box .box-one .left {
+  width: 82%;
+  border: 1px solid rgba(14, 14, 14, 15%);
+  padding: 24px;
+}
+.box .box-one .right {
+  width: 18%;
+  border: 1px solid rgba(14, 14, 14, 15%);
+  padding: 24px;
+}
+.box .box-one .right button {
+  padding: 10px 24px;
+  display: flex;
+  align-items: center;
+  background: #c6e4d6;
+}
+
+.box .box-one .right button span {
+  margin-left: 35px;
+}
+
+/* news */
+.news .description h1 {
+  font-weight: bold;
+  color: #0e0e0e;
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.news .description p {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 60%);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 32px;
+}
+
+.news-box {
+  display: flex;
+  padding: 48px;
+  background: #ffffff;
+  margin-bottom: 24px;
+}
+.news-box-left {
+  width: 40%;
+}
+.news-box-left img {
+  border-radius: 24px;
+}
+
+.news-box .news-box-right {
+  width: 60%;
+}
+
+.news-box .news-box-right h1 {
+  margin-bottom: 24px;
+}
+.news-box .news-box-right img {
+  margin-bottom: 12px;
+}
+.news-box .news-box-right .date {
+  display: flex;
+  margin-bottom: 12px;
+}
+.news-box .news-box-right .date .dt {
+  margin-right: 12px;
+}
+.news-box .news-box-right p {
+  margin-bottom: 32px;
+}
+.news-box .news-box-right button {
+  padding: 13px 26px;
+  background: #006a50;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.middle .news-box-left {
+  width: 60%;
+}
+.middle .news-box-right img {
+  border-radius: 24px;
+}
+
+.middle .news-box-right {
+  width: 40%;
+}
+
+.middle .news-box-left h1 {
+  margin-bottom: 24px;
+}
+.middle .news-box-left img {
+  margin-bottom: 12px;
+}
+.middle .news-box-left .date {
+  display: flex;
+  margin-bottom: 12px;
+}
+..middle .news-box-left .date .dt {
+  margin-right: 12px;
+}
+.middle .news-box-left p {
+  margin-bottom: 32px;
+}
+.middle .news-box-left button {
+  padding: 13px 26px;
+  background: #006a50;
+  color: #ffffff;
+  border-radius: 8px;
+}
