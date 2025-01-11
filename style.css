@@ -362,3 +362,60 @@ section {
   color: #ffffff;
   border-radius: 8px;
 }
+
+/* dontate */
+
+.donate .desc h1 {
+  text-align: center;
+  font-weight: bold;
+  color: #0e0e0e;
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.donate .desc p {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 60%);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.taka {
+  display: flex;
+  justify-content: center;
+}
+.donate .taka .t-box {
+  padding: 40px;
+  background: #ffffff;
+  margin-right: 24px;
+  border-radius: 16px;
+}
+
+.donate .input-taka {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate .input-taka input {
+  width: 47%;
+  text-align: center;
+  padding: 20px 40px;
+  margin: 24px 24px;
+  border: none;
+}
+
+.donate .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donate button {
+  padding: 17px 34px;
+  background: #006a50;
+  color: #ffffff;
+  border-radius: 8px;
+  border: none;
+}
