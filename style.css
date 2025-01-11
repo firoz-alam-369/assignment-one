@@ -193,4 +193,36 @@ section {
   margin: 24px 0px 24px 0px;
 }
 
-/*  */
+/* card-younus */
+
+.card-younus {
+  padding: 48px 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  position: relative;
+}
+.card-younus .quotes img {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 10%;
+}
+
+.card-younus .quotes p {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 80%);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 12px;
+}
+.card-younus .adviser h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #0e0e0e;
+  font-family: "Fira Sans", serif;
+}
+
+.card-younus .adviser p {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 60%);
+  font-family: "Fira Sans", serif;
+}
