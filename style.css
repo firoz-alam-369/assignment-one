@@ -32,6 +32,8 @@ section {
   font-weight: 700;
 }
 
+/* hero-container */
+
 .hero-section {
   background: #c6e4d6;
   padding: 100px 80px;
@@ -43,21 +45,21 @@ section {
   justify-content: space-between;
   align-items: center;
 }
-.title-description .title p {
+.hero-container .title-description .title p {
   font-weight: 500;
   font-size: 24px;
   font-family: "Fira Sans", serif;
   color: rgba(14, 14, 14, 50%);
 }
 
-.title-description .title h1 {
+.hero-container .title-description .title h1 {
   font-weight: bold;
   color: #0e0e0e;
   font-family: "Fira Sans", serif;
   font-size: 56px;
 }
 
-.title-description .btn button {
+.hero-container .title-description .btn button {
   padding: 17px 34px;
   background: #006a50;
   color: #ffffff;
@@ -84,21 +86,21 @@ section {
   margin-bottom: 32px;
 }
 
-.card-body {
+.card-one-section .card-body {
   display: flex;
 }
-.card {
+.card-one-section .card {
   background: #ffffff;
   padding: 24px;
   border-radius: 16px;
 }
-.card .icon {
+.card-one-section .card .icon {
   width: 64px;
   height: 64px;
   margin-bottom: 24px;
 }
 
-.card .description h2 {
+.card-one-section .card .description h2 {
   font-weight: 700;
   font-size: 20px;
   color: #0e0e0e;
@@ -106,7 +108,7 @@ section {
   margin-bottom: 12px;
 }
 
-.card .description p {
+.card-one-section .card .description p {
   font-size: 16px;
   color: rgba(14, 14, 14, 70%);
   font-family: "Fira Sans", serif;
@@ -118,3 +120,77 @@ section {
 .card-d {
   margin-right: 24px;
 }
+
+/* section part three */
+
+.part-three .description h1 {
+  font-weight: bold;
+  color: #0e0e0e;
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+  margin-bottom: 24px;
+}
+
+.part-three .description p {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 70%);
+  font-family: "Fira Sans", serif;
+}
+
+.part-three .card-body {
+  display: flex;
+  margin: 32px 32px;
+}
+
+.part-three .card {
+  background: rgba(84, 144, 245, 20%);
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.part-three .card-b {
+  background: #c6e4d6;
+}
+
+.part-three .card-c {
+  background: #f7ebcf;
+}
+
+.part-three .card .icon {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+
+.part-three .card .description h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #0e0e0e;
+  font-family: "Fira Sans", serif;
+}
+
+.part-three .btn-one button {
+  padding: 11px 20px;
+  background: #5490f5;
+  border: none;
+  border-radius: 8px;
+  margin: 24px 0px 24px 0px;
+}
+
+.part-three .btn-two button {
+  padding: 11px 20px;
+  background: #09a15c;
+  border: none;
+  border-radius: 8px;
+  margin: 24px 0px 24px 0px;
+}
+
+.part-three .btn-three button {
+  padding: 11px 20px;
+  background: #ffc239;
+  border: none;
+  border-radius: 8px;
+  margin: 24px 0px 24px 0px;
+}
+
+/*  */
