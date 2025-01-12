@@ -462,3 +462,27 @@ img {
   border: none;
   outline: none;
 }
+
+.subscribe .input button {
+  padding: 18px 34px;
+  border-radius: 0px 8px 8px 0px;
+  margin-left: -5px;
+  margin-bottom: 24px;
+}
+
+/* footer */
+
+footer {
+  padding: 50px 160px;
+  text-align: center;
+  background: #ffffff;
+}
+footer .bd h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+footer img {
+  margin: 0px 5px 0px 0px;
+}
