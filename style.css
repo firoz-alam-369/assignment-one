@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+h1,
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+
 body {
   background: #f5f5f5;
 }
@@ -15,6 +20,19 @@ section {
 
 .container {
   margin: 24px 100px;
+}
+
+.title h1 {
+  font-weight: bold;
+  color: #0e0e0e;
+  font-family: "Fira Sans", serif;
+  font-size: 40px;
+}
+
+.title p {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 70%);
+  font-family: "Fira Sans", serif;
 }
 
 .navbar {
@@ -45,14 +63,14 @@ section {
   justify-content: space-between;
   align-items: center;
 }
-.hero-container .title-description .title p {
+.hero-container .title-description .hero-title p {
   font-weight: 500;
   font-size: 24px;
   font-family: "Fira Sans", serif;
   color: rgba(14, 14, 14, 50%);
 }
 
-.hero-container .title-description .title h1 {
+.hero-container .title-description .hero-title h1 {
   font-weight: bold;
   color: #0e0e0e;
   font-family: "Fira Sans", serif;
@@ -76,31 +94,27 @@ section {
   height: 400px;
 }
 
-/* card-one-section */
+/* vision */
 
-.card-one-section .title h1 {
-  font-size: 40px;
-  font-weight: bold;
-  color: #0e0e0e;
-  font-family: "Fira Sans", serif;
+.bangladesh .title h1 {
   margin-bottom: 32px;
 }
 
-.card-one-section .card-body {
+.bangladesh .card-body {
   display: flex;
 }
-.card-one-section .card {
+.bangladesh .card {
   background: #ffffff;
   padding: 24px;
   border-radius: 16px;
 }
-.card-one-section .card .icon {
+.bangladesh .card .icon {
   width: 64px;
   height: 64px;
   margin-bottom: 24px;
 }
 
-.card-one-section .card .description h2 {
+.bangladesh .card .description h2 {
   font-weight: 700;
   font-size: 20px;
   color: #0e0e0e;
@@ -108,7 +122,7 @@ section {
   margin-bottom: 12px;
 }
 
-.card-one-section .card .description p {
+.bangladesh .card .description p {
   font-size: 16px;
   color: rgba(14, 14, 14, 70%);
   font-family: "Fira Sans", serif;
@@ -123,74 +137,61 @@ section {
 
 /* section part three */
 
-.part-three .description h1 {
-  font-weight: bold;
-  color: #0e0e0e;
-  font-family: "Fira Sans", serif;
-  font-size: 40px;
+.vision .title h1 {
   margin-bottom: 24px;
 }
 
-.part-three .description p {
-  font-size: 16px;
-  color: rgba(14, 14, 14, 70%);
-  font-family: "Fira Sans", serif;
+.vision .title p {
 }
 
-.part-three .card-body {
+.vision .card-body {
   display: flex;
   margin: 32px 32px;
 }
 
-.part-three .card {
+.vision .card {
   background: rgba(84, 144, 245, 20%);
   padding: 32px;
   border-radius: 16px;
 }
 
-.part-three .card-b {
+.vision .card-b {
   background: #c6e4d6;
 }
 
-.part-three .card-c {
+.vision .card-c {
   background: #f7ebcf;
 }
 
-.part-three .card .icon {
+.vision .card .icon {
   width: 64px;
   height: 64px;
   margin-bottom: 24px;
 }
 
-.part-three .card .description h2 {
+.vision .card .description h2 {
   font-weight: 700;
   font-size: 20px;
   color: #0e0e0e;
   font-family: "Fira Sans", serif;
 }
 
-.part-three .btn-one button {
+.vision button {
   padding: 11px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  margin: 24px 0px 24px 0px;
+}
+
+.vision .btn-one button {
   background: #5490f5;
-  border: none;
-  border-radius: 8px;
-  margin: 24px 0px 24px 0px;
 }
-
-.part-three .btn-two button {
-  padding: 11px 20px;
+.vision .btn-two button {
   background: #09a15c;
-  border: none;
-  border-radius: 8px;
-  margin: 24px 0px 24px 0px;
 }
-
-.part-three .btn-three button {
-  padding: 11px 20px;
+.vision .btn-three button {
   background: #ffc239;
-  border: none;
-  border-radius: 8px;
-  margin: 24px 0px 24px 0px;
 }
 
 /* card-younus */
@@ -230,10 +231,6 @@ section {
 /* Opinion */
 
 .opinion .title h1 {
-  font-weight: bold;
-  color: #0e0e0e;
-  font-family: "Fira Sans", serif;
-  font-size: 40px;
   margin-bottom: 24px;
 }
 .opinion .box {
@@ -274,18 +271,11 @@ section {
 }
 
 /* news */
-.news .description h1 {
-  font-weight: bold;
-  color: #0e0e0e;
-  font-family: "Fira Sans", serif;
-  font-size: 40px;
+.news .title h1 {
   margin-bottom: 24px;
 }
 
-.news .description p {
-  font-size: 16px;
-  color: rgba(14, 14, 14, 60%);
-  font-family: "Fira Sans", serif;
+.news .title p {
   margin-bottom: 32px;
 }
 
@@ -350,7 +340,7 @@ section {
   display: flex;
   margin-bottom: 12px;
 }
-..middle .news-box-left .date .dt {
+.middle .news-box-left .date .dt {
   margin-right: 12px;
 }
 .middle .news-box-left p {
@@ -365,19 +355,12 @@ section {
 
 /* dontate */
 
-.donate .desc h1 {
+.donate .title h1 {
   text-align: center;
-  font-weight: bold;
-  color: #0e0e0e;
-  font-family: "Fira Sans", serif;
-  font-size: 40px;
   margin-bottom: 24px;
 }
 
-.donate .desc p {
-  font-size: 16px;
-  color: rgba(14, 14, 14, 60%);
-  font-family: "Fira Sans", serif;
+.donate .title p {
   margin-bottom: 24px;
   text-align: center;
 }
